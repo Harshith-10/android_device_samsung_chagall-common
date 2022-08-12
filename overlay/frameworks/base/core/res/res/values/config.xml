@@ -64,8 +64,8 @@
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
 
-    <!-- VCS limits the number of fingerprints per user to 3 -->
-    <integer name="config_fingerprintMaxTemplatesPerUser">3</integer>
+    <!-- VCS limits the number of fingerprints per user to 5 -->
+    <integer name="config_fingerprintMaxTemplatesPerUser">5</integer>
 
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
