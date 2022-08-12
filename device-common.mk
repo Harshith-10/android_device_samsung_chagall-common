@@ -23,9 +23,6 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     device/samsung/chagall-common/overlay/hardware/samsung/AdvancedDisplay
 
-# AdvancedDisplay (MDNIE)
-PRODUCT_PACKAGES += \
-    AdvancedDisplay
 
 # Audio
 PRODUCT_COPY_FILES += \
